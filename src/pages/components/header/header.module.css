@@ -2,7 +2,7 @@ nav {
     background: linear-gradient(to right, #0052cc, #4dabff);
 }
 
-.container .row {
+.header-row {
     height: 80px;
 }
 
