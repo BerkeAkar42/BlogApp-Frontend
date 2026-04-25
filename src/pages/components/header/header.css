@@ -1,0 +1,98 @@
+nav {
+    background: linear-gradient(to right, #0052cc, #4dabff);
+}
+
+.container .row {
+    height: 80px;
+}
+
+#logo {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: start;
+    align-items: center;
+    display: flex;
+}
+
+#logo a {
+    color: white;
+    text-decoration: none;
+}
+#logo a:hover {
+    color: #cadfff;
+    text-decoration: none;
+}
+
+#navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-Links {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-Links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 12px;
+    transition: all 0.3s ease; 
+    display: inline-block;
+
+    transition: all 0.3s ease-in-out;
+}
+.nav-Links a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Yarı saydam beyaz */
+    color: #0569c0; 
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    background-color: #0052cc;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0052cc;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px){
+    .nav-Links a {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.nav-Links {
+    gap: 1px;
+}
+
+.btn {
+    font-size: 15px;
+    height: 45px;
+    width: 80px;
+}
+}
