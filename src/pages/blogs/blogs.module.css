@@ -1,0 +1,18 @@
+.blogs-row-1 {
+    min-height: 50px;
+    background-color: red;
+}
+
+.blogs-title {
+    text-align: center;
+}
+
+.blogs-row-2 {
+    margin-top: 30px;
+    background-color: brown;
+
+    /* Dinamik bir yükseklik yapısı kurma: */
+    height: auto;
+    min-height: 400px;
+    padding: 20px 0;
+}
